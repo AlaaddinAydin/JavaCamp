@@ -1,0 +1,11 @@
+package coffeShop;
+
+public class MernisServiceAdapter implements PersonCheckService{
+
+	@Override
+	public boolean checkIfRealPerson(Customer customer) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}

@@ -1,0 +1,13 @@
+package homework;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student user = new Student();
+		UserManager userManager = new UserManager();
+		
+		userManager.add();
+	}
+
+}

@@ -1,0 +1,21 @@
+package game_purchase_app;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		GamerManager gamerManager = new GamerManager(new EdevletCheckManager());
+		PurchaseManager purchaseManager = new PurchaseManager();
+		
+		
+		
+		
+		gamerManager.add(new Gamer(1,"burak","demir","zarttirizorzro@gmail.com"));
+		gamerManager.delete(new Gamer(1,"burak","demir","zarttirizorzro@gmail.com"));
+		gamerManager.updata(new Gamer(1,"burak","demir","zarttirizorzro@gmail.com"));
+		
+		
+		purchaseManager.purchase(new Gamer(1,"burak","demir","zarttirizorzro@gmail.com"), new Purches(1, "Dishonored"));
+	}
+
+}

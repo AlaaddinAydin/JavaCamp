@@ -1,0 +1,13 @@
+package oopIntro;
+
+public class DortIslem {
+	public int topla(int... sayılar) {
+		int tot = 0;
+		
+		for (int i : sayılar) {
+			tot += i;
+		}
+		
+		return tot;
+	}
+}	

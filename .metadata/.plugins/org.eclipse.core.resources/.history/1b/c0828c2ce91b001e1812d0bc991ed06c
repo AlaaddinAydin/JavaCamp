@@ -1,0 +1,18 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//camelCase
+		//don't repeat yourself
+		String internetSubeButonu = "İnternet Şubesi";
+		int dolarDun = 8;
+		dobule dolarBugun = 8.15
+		
+		System.out.println(internetSubeButonu);
+		
+		
+	}
+
+}

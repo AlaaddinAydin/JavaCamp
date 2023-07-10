@@ -1,0 +1,8 @@
+package coffeShop;
+
+public class SturbucksCustomerManager extends BaseCustomerManager  {
+
+	
+	
+
+}

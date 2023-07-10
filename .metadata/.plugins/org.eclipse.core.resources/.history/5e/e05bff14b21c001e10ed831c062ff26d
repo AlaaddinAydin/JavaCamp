@@ -1,0 +1,11 @@
+package oopIntro;
+
+public class Homework1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CategoryHW category = new CategoryHW(1,"engin");
+		
+	}
+
+}

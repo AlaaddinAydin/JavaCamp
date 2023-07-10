@@ -1,0 +1,13 @@
+package homework;
+
+public class UserManager  {
+	public void add(User user) {
+		System.out.println("Kullanıcı eklendi");
+		
+	}
+	
+	public void add(User[] users) {
+		System.out.println("Kullanıcı eklendi");
+		
+	}
+}

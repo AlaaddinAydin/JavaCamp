@@ -1,0 +1,14 @@
+package coffeShop;
+
+public class NeroCustomerManager extends BaseCustomerManager {
+	PersonCheckService checkService;
+	
+	public NeroCustomerManager(PersonCheckService personCheckService) {
+		// TODO Auto-generated constructor stub
+		this.checkService = personCheckService;
+	}
+	
+	
+	
+
+}

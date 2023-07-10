@@ -1,0 +1,16 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//camelCase
+		//don't repeat yourself
+		String internetSubeButonu = "İnternet Şubesi";
+		
+		System.out.println(internetSubeButonu);
+		
+		
+	}
+
+}

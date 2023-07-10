@@ -1,0 +1,21 @@
+package intro;
+
+public class recapDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int sayı1 = 10 ,sayı2 = 30 , sayı3 = 20;
+		int enb= 0;
+		
+		enb = sayı1;
+		if(sayı1 < sayı2) {
+			enb = sayı2;
+		}
+		if(sayı1 < sayı3) {
+			enb = sayı3;
+		}
+		
+		System.out.println(enb);
+	}
+
+}

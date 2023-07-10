@@ -1,0 +1,22 @@
+package oopIntro;
+
+public class Homework1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Courses courses1 = new Courses(1,"Kodlama");
+		Courses courses2 = new Courses(2, "Yemek");
+		
+		Courses[] courses = {
+				courses1,
+				courses2
+		};
+		
+		for (Courses course : courses) {
+			System.out.println("Kategori ismi : " + course.name);
+		}
+		
+		Trainer trainer1 = new Trainer();
+	}
+
+}

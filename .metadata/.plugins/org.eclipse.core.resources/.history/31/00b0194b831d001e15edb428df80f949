@@ -1,0 +1,15 @@
+package inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		IndivisualCustomer engin = new IndivisualCustomer();
+		engin.customerNumber = "12345"
+		
+		CorporateCustomer hepsiBurada = new CorporateCustomer();
+		hepsiBurada.companyName = "hepsiburada";
+		
+	}
+
+}

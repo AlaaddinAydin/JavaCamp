@@ -1,0 +1,22 @@
+package intro;
+
+public class miniProj2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int nub = 7, sub = 0;
+		
+		for(int i = 1 ; i < nub ; i++) {
+			if(nub % i == 0) {
+				sub += i;
+			}
+		}
+		
+		if(sub == nub) {
+			System.out.println("mükemel sayı");
+		}else {
+			System.out.println("sayı mükemmel değil");
+		}
+	}
+
+}

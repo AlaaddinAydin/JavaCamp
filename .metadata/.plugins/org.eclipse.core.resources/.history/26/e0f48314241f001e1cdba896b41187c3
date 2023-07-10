@@ -1,0 +1,17 @@
+package coffeShop;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		BaseCustomerManager baseCustomerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
+		BaseCustomerManager baseCustomerManager2 = new NeroCustomerManager(new CustomerCheckManager());
+		
+		baseCustomerManager.save(new Customer(1,"mehmet","Demirog","15263748"));
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package game_purchase_app;
+
+public class PurchaseManager implements PurchaseService{
+
+	@Override
+	public void purchase(Gamer gamer) {
+		// TODO Auto-generated method stub
+		System.out.println("Satış başarılı bir şekilde gerçekleşti.");
+		System.out.println("İyi oyunlar sayın " + gamer.firstName);
+	}
+
+}

@@ -1,0 +1,11 @@
+package coffeShop;
+
+public class CustomerCheckManager implements PersonCheckService{
+
+	@Override
+	public void checkIfRealPerson(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

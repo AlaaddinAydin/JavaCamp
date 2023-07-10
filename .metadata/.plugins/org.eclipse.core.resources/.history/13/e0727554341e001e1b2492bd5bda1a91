@@ -1,0 +1,22 @@
+package recapDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BaseLogger[] loggers = new BaseLogger[] {new ConsoleLogger(),new FileLogger(),new DatabaseLogger(), new EmailLogger()};
+	
+		for (BaseLogger logger : loggers) {
+			logger.log("oha naber");
+		}
+		
+		
+		
+		CustomerManager customerManager = new CustomerManager(new DatabaseLogger());
+		customerManager.
+	}
+	
+	
+	
+
+}

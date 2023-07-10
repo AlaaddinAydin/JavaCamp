@@ -1,0 +1,28 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//camelCase
+		//don't repeat yourself
+		String internetSubeButonu = "İnternet Şubesi";
+		int vade = 36;
+		double dolarBugun = 8.10;
+		double dolarDun = 8.15;
+		boolean dustuMu = false ;
+		
+		
+		System.out.println(internetSubeButonu);
+		
+		
+		if(dolarBugun < dolarDun) {
+			System.out.println("Dolar dustu resmi");
+		}else {
+			System.out.println("Dolar yukseldi resmi");
+		}
+		
+		
+	}
+
+}

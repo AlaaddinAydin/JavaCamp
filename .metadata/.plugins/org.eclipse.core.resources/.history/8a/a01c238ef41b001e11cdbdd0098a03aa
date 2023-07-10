@@ -1,0 +1,17 @@
+package intro;
+
+public class recapDemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double[] myList = {1.2,3.5,6.7,7.3};
+		double sub = 0;
+		
+		for(double i : myList) {
+			System.out.println(i);
+			sub+=i;
+		}
+		System.out.println(sub);
+	}
+
+}

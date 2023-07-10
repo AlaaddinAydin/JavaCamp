@@ -1,0 +1,12 @@
+package coffeShop;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BaseCustomerManager baseCustomerManager = new StarbucksCustomerManager(new Customer(1,"Ahmet","Demirog","15263748"));
+		
+		baseCustomerManager.save(new Customer(1,"Ahmet","Demirog","15263748"));
+	}
+
+}

@@ -1,0 +1,28 @@
+package intro;
+
+public class miniProj {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Asal sayı bulucu
+		
+		int nub = 9;
+		boolean st = false;
+		
+		for(int i = 2 ; i < nub ;i++ ){
+			if(nub % i == 0) {
+				st = true;
+			}
+		}
+		
+	
+		if(st) {
+			System.out.println("sayı asal değildir");
+		}
+		else {
+			System.out.println("sayı asaldır");  
+		}
+
+	}
+}

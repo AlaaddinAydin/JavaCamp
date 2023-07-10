@@ -1,0 +1,12 @@
+package oopIntro;
+
+public class Courses {
+	public Courses(int id , String name) {
+		// TODO Auto-generated constructor stub
+		this.id = id;
+		this.name = name;
+	}
+	
+	int id;
+	String name;
+}

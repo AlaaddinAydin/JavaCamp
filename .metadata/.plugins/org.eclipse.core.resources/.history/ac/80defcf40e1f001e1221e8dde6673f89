@@ -1,0 +1,16 @@
+package abstractDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BaseDatabaseManager[] baseDatabaseManagers = {new MysqlManager(), new MssqlManager()};
+		
+		
+		for (BaseDatabaseManager baseDatabaseManager : baseDatabaseManagers) {
+			baseDatabaseManager.add();
+			baseDatabaseManager.delete();
+		}
+	}
+
+}

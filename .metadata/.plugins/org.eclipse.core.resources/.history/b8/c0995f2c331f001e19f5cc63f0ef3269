@@ -1,0 +1,38 @@
+package game_purchase_app;
+
+public class GamerManager implements GamerGrud{
+
+	PersonCheckService personCheckService ;
+	
+	public GamerManager(PersonCheckService personCheckService) {
+		// TODO Auto-generated constructor stub
+		this.personCheckService = personCheckService;
+	}
+
+	@Override
+	public void add(Gamer gamer) {
+		// TODO Auto-generated method stub
+		if(personCheckService.checkIfRealPerson(gamer)) {
+			System.out.println("Başarılı bir şekilde eklendi");
+		}
+	}
+
+
+	@Override
+	public void delete(Gamer gamer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void updata(Gamer gamer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
+	
+	
+}

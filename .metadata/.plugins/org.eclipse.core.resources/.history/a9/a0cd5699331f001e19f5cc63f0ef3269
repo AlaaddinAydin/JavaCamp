@@ -1,0 +1,15 @@
+package game_purchase_app;
+
+public class EdevletCheckManager implements PersonCheckService{
+
+	@Override
+	public boolean checkIfRealPerson(Gamer gamer) {
+		// TODO Auto-generated method stub
+		
+		if(gamer.firstName == "burak") {
+			return true;
+		}
+		
+	}
+
+}

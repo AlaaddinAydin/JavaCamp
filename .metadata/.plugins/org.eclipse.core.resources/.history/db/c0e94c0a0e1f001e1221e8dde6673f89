@@ -1,0 +1,5 @@
+package abstractDemo;
+
+public class MysqlManager extends BaseDatabaseManager{
+	
+}

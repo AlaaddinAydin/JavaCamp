@@ -1,0 +1,11 @@
+package coffeShop;
+
+public class SturbucksCustomerManager extends BaseCustomer  {
+
+	@Override
+	public void save(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

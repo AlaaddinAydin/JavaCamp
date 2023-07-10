@@ -1,0 +1,23 @@
+package game_purchase_app;
+
+public class DiscountManager implements DiscountGrudService{
+
+	@Override
+	public void add(Discount discount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Discount discount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updata(Discount discount) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

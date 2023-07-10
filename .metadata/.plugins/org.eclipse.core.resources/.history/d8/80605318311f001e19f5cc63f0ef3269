@@ -1,0 +1,21 @@
+package game_purchase_app;
+
+public class GamerManager implements Grud{
+
+	
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updata() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+}

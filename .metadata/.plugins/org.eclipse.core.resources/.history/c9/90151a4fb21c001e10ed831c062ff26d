@@ -1,0 +1,20 @@
+package oopIntro;
+
+public class Homework1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CategoryHW category1 = new CategoryHW(1,"Kodlama");
+		CategoryHW category2 = new CategoryHW(2, "Yemek");
+		
+		CategoryHW[] categorys = {
+				category1,
+				category2
+		};
+		
+		for (CategoryHW category : categorys) {
+			System.out.println("Kategori ismi : " + category.name);
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+package intro;
+
+public class miniProj3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] nubs = {1,2,3,4,5,6,7,8,9,0};
+		int nub = 5;
+		
+		for(int search : nubs) {
+			if(nub == seacrh)
+		}
+	}
+
+}

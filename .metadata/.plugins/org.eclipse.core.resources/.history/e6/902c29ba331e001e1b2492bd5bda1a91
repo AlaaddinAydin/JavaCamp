@@ -1,0 +1,7 @@
+package recapDemo;
+
+public class CustomerManager {
+	public void add() {
+		System.out.println("Müsteri eklendi");
+	}
+}

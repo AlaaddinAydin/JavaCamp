@@ -1,0 +1,6 @@
+package game_purchase_app;
+
+public class Purches {
+	int id;
+	String gameName;
+}

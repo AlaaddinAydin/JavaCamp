@@ -1,0 +1,7 @@
+package game_purchase_app;
+
+public class Discount {
+	int id ;
+	String discountName;
+	String discountValue;
+}

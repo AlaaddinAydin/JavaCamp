@@ -1,0 +1,8 @@
+package inheritance;
+
+public class IndivisualCustomer {
+	
+	String firstName;
+	String lastname;
+	String nationalIdentity;
+}

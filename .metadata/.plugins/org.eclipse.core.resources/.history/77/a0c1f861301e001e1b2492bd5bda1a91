@@ -1,0 +1,11 @@
+package recapDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		EmailLogger emailLogger = new EmailLogger();
+		emailLogger.log("log mesajı");
+	}
+
+}

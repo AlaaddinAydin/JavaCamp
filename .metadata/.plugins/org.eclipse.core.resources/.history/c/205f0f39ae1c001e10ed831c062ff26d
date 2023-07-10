@@ -1,0 +1,16 @@
+package oopIntro;
+
+public class Product {
+	
+	public Product() {
+		// TODO Auto-generated constructor stub
+		System.out.println("Ben oluştum");
+	}
+	
+	int id;
+	String name;
+	double unitPrice;
+	String detail;
+	
+	
+}

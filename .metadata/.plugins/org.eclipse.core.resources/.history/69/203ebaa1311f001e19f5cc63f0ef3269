@@ -1,0 +1,29 @@
+package game_purchase_app;
+
+public class GamerGrudManager implements GamerGrud{
+	
+	
+	
+	public GamerGrudManager() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void add(Gamer gamer) {
+		// TODO Auto-generated method stub
+		System.out.println("");
+	}
+
+	@Override
+	public void delete(Gamer gamer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updata(Gamer gamer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

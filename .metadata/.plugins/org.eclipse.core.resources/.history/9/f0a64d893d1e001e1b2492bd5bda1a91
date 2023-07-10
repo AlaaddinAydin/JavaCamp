@@ -1,0 +1,15 @@
+package interfaces;
+
+public class CustomerManager {
+	
+	
+	public void add(Customer customer,Logger logger) {
+		System.out.println("Müşteri eklendi " + customer.getFirstName());
+		logger
+	}
+	
+	
+	public void delete(Customer customer) {
+		System.out.println("Müşteri silindi " + customer.getFirstName());
+	}	
+}

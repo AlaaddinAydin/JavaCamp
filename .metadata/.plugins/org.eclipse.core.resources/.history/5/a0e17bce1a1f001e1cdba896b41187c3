@@ -1,0 +1,9 @@
+package coffeShop;
+
+public class StarbucksCustomerManager extends BaseCustomerManager{
+	@Override
+	public void save(Customer customer) {
+		// TODO Auto-generated method stub
+		System.out.println("save to db " + customer.firstName);
+	}
+}

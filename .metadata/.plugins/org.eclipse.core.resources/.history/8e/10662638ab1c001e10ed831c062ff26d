@@ -1,0 +1,38 @@
+package oopIntro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//gerçekçi bir tasarım değil 
+		
+		/*String[] products = {
+				"Lenovo v14",
+				"lenovo v15",
+				"HP pavilion"
+		};
+		
+		int[] unitsInStock = {
+				3,
+				4,
+				5
+		};*/
+		
+		Product product1 = new Product(); // örnek , referans , intance oluşturma
+		product1.id = 1;
+		product1.name = "Lenovo 15v";
+		product1.unitPrice = 500;
+		product1.detail = "16gb ram";
+		
+		Product[] products = {};
+		
+		System.out.println(products.length);
+		
+		
+		
+		
+		
+	}
+
+}

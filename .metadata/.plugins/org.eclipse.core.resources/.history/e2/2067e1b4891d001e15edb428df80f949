@@ -1,0 +1,8 @@
+package homework;
+
+public class InstractorManager {
+	@Override
+	public void add() {
+		
+	}	
+}

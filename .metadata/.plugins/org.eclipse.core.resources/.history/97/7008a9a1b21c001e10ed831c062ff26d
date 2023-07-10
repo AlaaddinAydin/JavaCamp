@@ -1,0 +1,11 @@
+package oopIntro;
+
+public class Trainer {
+	
+	public Trainer(int id, String name) {
+		// TODO Auto-generated constructor stub
+	}
+	
+	int id;
+	String name;
+}

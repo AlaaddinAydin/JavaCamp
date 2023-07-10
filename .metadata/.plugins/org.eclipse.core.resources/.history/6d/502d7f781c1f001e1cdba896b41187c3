@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * @author User
+ *
+ */
+module coffeShop {
+	requires jaxrpc;
+}

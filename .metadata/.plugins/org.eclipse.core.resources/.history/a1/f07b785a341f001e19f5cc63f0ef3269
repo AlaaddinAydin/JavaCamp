@@ -1,0 +1,11 @@
+package game_purchase_app;
+
+public class PurchaseManager implements PurchaseService{
+
+	@Override
+	public void purchase() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

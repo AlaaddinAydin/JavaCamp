@@ -1,0 +1,9 @@
+package inheritance;
+
+public class CustomerManager {
+	public void add(CUstomer customer) {
+		System.out.println("eklendi " + customer.customerNumber);
+	}
+	
+	
+}

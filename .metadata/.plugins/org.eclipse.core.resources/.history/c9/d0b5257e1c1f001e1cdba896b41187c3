@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+/**
+ * @author User
+ *
+ */
+module coffeShop {
+	requires jaxrpc;
+	requires axis;
+}

@@ -1,0 +1,14 @@
+package homework;
+
+public class Metoths {
+	public void add(UserManager userManager) {
+		userManager.add();
+	}
+	
+	public void add(UserManager[] userManager) {
+		for (User user : userManager) {
+			System.out.println("Kullanıcı eklendi " + userManager.getFirstName());
+		}
+		
+	}
+}

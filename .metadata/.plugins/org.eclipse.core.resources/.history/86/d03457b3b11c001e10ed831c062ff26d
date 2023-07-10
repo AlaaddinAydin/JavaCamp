@@ -1,0 +1,6 @@
+package oopIntro;
+
+public class CategoryHW {
+	int id;
+	String name;
+}

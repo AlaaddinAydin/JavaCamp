@@ -1,0 +1,20 @@
+package oopIntro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] products = {
+				"Lenovo v14",
+				"lenovo v15",
+				"HP pavilion"
+		};
+		
+		int[] unitsInStock = {
+				"Lenovo v14",
+				"lenovo v15",
+				"HP pavilion"
+		};
+	}
+
+}

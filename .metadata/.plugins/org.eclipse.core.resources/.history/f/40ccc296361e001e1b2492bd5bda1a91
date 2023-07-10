@@ -1,0 +1,33 @@
+package homework;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student user = new Student();
+		User user2 = new User();
+		Instructor instructor = new Instructor();
+		
+		
+		
+//		user.setFirstName("mahmut");
+//		user2.setFirstName("derman");
+//		instructor.setFirstName("derya");
+//		
+		UserManager userManager = new UserManager();
+		StudentManager studentManager = new StudentManager();
+		InstractorManager instractorManager = new  InstractorManager();
+//		
+//		studentManager.add();
+		
+		Metoths metoths = new Metoths();
+//		
+		UserManager[] serManager = {userManager, studentManager,instractorManager};
+		
+		metoths.add(studentManager);
+		metoths.add(instractorManager);
+		metoths.add(serManager);
+//		userManager.add(users);
+	}
+
+}
