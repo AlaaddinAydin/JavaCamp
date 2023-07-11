@@ -5,5 +5,5 @@ public interface DiscountGrudService {
 	
 	void delete(Discount discount);
 	
-	void update(Discount discount);
+	void updata(Discount discount);
 }

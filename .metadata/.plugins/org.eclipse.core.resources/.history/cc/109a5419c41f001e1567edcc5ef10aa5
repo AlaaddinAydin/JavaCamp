@@ -34,7 +34,7 @@ public class GamerManager implements GamerGrudService{
 
 
 	@Override
-	public void update(Gamer gamer) {
+	public void updata(Gamer gamer) {
 		// TODO Auto-generated method stub
 		if(personCheckService.checkIfRealPerson(gamer)) {
 			System.out.println("Oyuncu başarılı bir şekilde güncellendi");

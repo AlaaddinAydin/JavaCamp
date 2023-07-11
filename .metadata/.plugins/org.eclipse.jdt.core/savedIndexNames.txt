@@ -1,19 +1,20 @@
-INDEX VERSION 1.132+C:\Users\User\JAVACamp\.metadata\.plugins\org.eclipse.jdt.core
-3521941238.index
-3634479910.index
-278804527.index
-2603447019.index
-2533518831.index
+INDEX VERSION 1.132+C:\Users\User\JAVACamp - Kopya (2)\.metadata\.plugins\org.eclipse.jdt.core
 1129326020.index
-2173185553.index
-3694183881.index
-3629675015.index
-141932536.index
-2052462106.index
 1865797976.index
-858178207.index
+3629675015.index
+3694183881.index
+3959137331.index
 1719816419.index
+2533518831.index
+380197650.index
+3521941238.index
+2052462106.index
+3634479910.index
+2603447019.index
+278804527.index
+2173185553.index
+141932536.index
 435225591.index
 84024379.index
+858178207.index
 2162396647.index
-380197650.index

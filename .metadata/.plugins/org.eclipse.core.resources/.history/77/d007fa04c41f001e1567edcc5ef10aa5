@@ -11,13 +11,13 @@ public class Main {
 		
 		discountManager.add(new Discount(1, "sale", 10));
 		discountManager.delete(new Discount(1, "sale", 10));
-		discountManager.update(new Discount(1, "sale", 10));
+		discountManager.updata(new Discount(1, "sale", 10));
 		
 		
 		
 		gamerManager.add(new Gamer(1,"burak","demir","zarttirizorzro@gmail.com"));
 		gamerManager.delete(new Gamer(1,"burak","demir","zarttirizorzro@gmail.com"));
-		gamerManager.update(new Gamer(1,"burak","demir","zarttirizorzro@gmail.com"));
+		gamerManager.updata(new Gamer(1,"burak","demir","zarttirizorzro@gmail.com"));
 		
 		
 		purchaseManager.purchase(new Gamer(1,"burak","demir","zarttirizorzro@gmail.com"), new Purches(1, "Dishonored"));

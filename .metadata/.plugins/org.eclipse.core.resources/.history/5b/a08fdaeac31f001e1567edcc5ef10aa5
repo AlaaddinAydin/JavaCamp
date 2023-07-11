@@ -32,7 +32,7 @@ public class DiscountManager implements DiscountGrudService{
 	}
 
 	@Override
-	public void update(Discount discount) {
+	public void updata(Discount discount) {
 		// TODO Auto-generated method stub
 		if(discountCheckService.checkIfRealDicount(discount)) {
 			System.out.println("İndirim başarılı bir şekilde güncellendi");
