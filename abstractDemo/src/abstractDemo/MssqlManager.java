@@ -1,0 +1,23 @@
+package abstractDemo;
+
+public class MssqlManager extends BaseDatabaseManager{
+
+	@Override
+	public void add() {
+		// TODO Auto-generated method stub
+		System.out.println("Mssqle eklendi");
+	}
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+		System.out.println("Mssqlden silindi");
+	}
+
+	@Override
+	public void getData() {
+		// TODO Auto-generated method stub
+		System.out.println("Mssqlden getirildi");
+	}
+
+}
