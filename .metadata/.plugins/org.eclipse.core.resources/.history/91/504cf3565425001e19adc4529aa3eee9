@@ -1,0 +1,7 @@
+package com.example.northwind.bussines.concretes;
+
+import com.example.northwind.bussines.abstracts.ProductService;
+
+public class ProductManager implements ProductService{
+
+}

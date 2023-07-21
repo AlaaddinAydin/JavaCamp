@@ -1,0 +1,20 @@
+package com.example.northwind;
+
+
+
+import org.springframework.boot.SpringApplication;
+
+
+
+
+@SpringBootApplication
+@EnableSwagger2
+public class NorthwindApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(NorthwindApplication.class, args);
+	}
+
+	
+    
+}

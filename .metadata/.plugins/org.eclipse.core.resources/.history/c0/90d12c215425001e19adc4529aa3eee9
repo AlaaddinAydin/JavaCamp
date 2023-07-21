@@ -1,0 +1,7 @@
+package com.example.northwind.bussines.abstracts;
+
+import java.util.List;
+
+public class ProductService {
+	List<Product> getAl;
+}

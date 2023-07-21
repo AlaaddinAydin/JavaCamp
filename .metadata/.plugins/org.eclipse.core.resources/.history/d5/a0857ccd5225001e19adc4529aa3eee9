@@ -1,0 +1,30 @@
+package com.example.northwind.entities.concretes;
+
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Data @Entity @Table(name = "products")
+public class Product {
+	private int id;
+	private int categoryId;
+	private String productName;
+	private double unitPrice;
+	private short unitsInStock;
+	private String quantitiyPerUnit;
+	
+	
+	
+	public Product(int id, int categoryId, String productName, double unitPrice, short unitsInStock,
+			String quantitiyPerUnit) {
+		super();
+		this.id = id;
+		this.categoryId = categoryId;
+		this.productName = productName;
+		this.unitPrice = unitPrice;
+		this.unitsInStock = unitsInStock;
+		this.quantitiyPerUnit = quantitiyPerUnit;
+	}
+	
+}

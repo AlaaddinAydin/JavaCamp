@@ -1,0 +1,5 @@
+package com.example.northwind.api.controllers;
+
+public class ProductsController {
+
+}

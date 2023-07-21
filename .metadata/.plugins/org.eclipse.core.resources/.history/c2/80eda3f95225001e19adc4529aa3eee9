@@ -1,0 +1,54 @@
+package com.example.northwind.entities.concretes;
+
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Data 
+@Entity 
+@Table(name = "products")
+public class Product {
+	
+	@Column(name = "product_id")
+	private int id;
+	
+	@Column(name = "category_id")
+	private int categoryId;
+	
+	@Column(name = "product_name")
+	private String productName;
+	
+	@Column(name = "unit_price")
+	private double unitPrice;
+	
+	@Column(name = "units_in_stock")
+	private short unitsInStock;
+	
+	@Column(name = "product_id")
+	
+	@Column(name = "product_id")
+	
+	
+	
+	
+	
+
+	
+	private String quantitiyPerUnit;
+	
+	
+	
+	public Product(int id, int categoryId, String productName, double unitPrice, short unitsInStock,
+			String quantitiyPerUnit) {
+		super();
+		this.id = id;
+		this.categoryId = categoryId;
+		this.productName = productName;
+		this.unitPrice = unitPrice;
+		this.unitsInStock = unitsInStock;
+		this.quantitiyPerUnit = quantitiyPerUnit;
+	}
+	
+}
