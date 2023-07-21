@@ -1,0 +1,13 @@
+com.xliic.openapi.settings.inlined.annotations.enable.flag=true
+com.xliic.openapi.settings.platform.dictionary.pre-audit=Ask
+com.xliic.openapi.settings.platform.scan.docker.replace.localhost=true
+com.xliic.openapi.settings.platform.scan.docker.use.host.network=true
+com.xliic.openapi.settings.platform.scan.image=42crunch/scand-agent\:v2.0.0-rc05
+com.xliic.openapi.settings.platform.scan.runtime=docker
+com.xliic.openapi.settings.platform.scan.scand.auth=none
+com.xliic.openapi.settings.platform.url=https\://platform.42crunch.com
+com.xliic.openapi.settings.preview.port=61112
+com.xliic.openapi.settings.preview.renderer=Swagger UI
+com.xliic.openapi.settings.sort.abc=true
+eclipse.preferences.version=1
+openapi.ignore.show.perspective.once1=true

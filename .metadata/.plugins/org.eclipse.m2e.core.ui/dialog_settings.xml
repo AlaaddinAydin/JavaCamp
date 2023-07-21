@@ -2,9 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\User\JAVACamp\nortwind"/>
+			<item value="C:\Users\User\JAVACamp\northwind"/>
 			<item value="C:\Users\User\JAVACamp\hrms"/>
 			<item value="C:\Users\User\JAVACamp\hrms-master"/>
-			<item value="C:\Users\User\JAVACamp\northwind"/>
 			<item value="C:\Users\User\JAVACamp\northwind\gradle"/>
 		</list>
 		<list key="projectNameTemplate">
